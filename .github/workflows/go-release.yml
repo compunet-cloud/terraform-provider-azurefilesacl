@@ -1,6 +1,11 @@
 name: Go Release
 
 on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "The git ref (branch, tag, or SHA) to checkout"
+        required: true
   workflow_call:
     inputs:
       ref:

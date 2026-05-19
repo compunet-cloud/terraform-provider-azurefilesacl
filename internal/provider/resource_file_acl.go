@@ -138,8 +138,7 @@ func (r *FileACLResource) Schema(ctx context.Context, req resource.SchemaRequest
 		},
 		Blocks: map[string]schema.Block{
 			"access_control_entry": schema.ListNestedBlock{
-				MarkdownDescription: "Managed access control entries. At least one `access_control_entry` block is required.",
-				MinItems:            1,
+				MarkdownDescription: "Managed access control entry.",
 				NestedObject: schema.NestedBlockObject{
 					Attributes: map[string]schema.Attribute{
 						"principal_id": schema.StringAttribute{

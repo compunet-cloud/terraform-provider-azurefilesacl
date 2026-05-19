@@ -6,6 +6,18 @@ All notable changes to this project will be documented in this file.
 
 
 * feat!: update provider name and version to latest major ([#10](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/issues/10)) ([cd57860](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/commit/cd5786087a8cd87a278736a0529c35fc8d521945))
+* feat!: update provider name and version to latest major ([#11](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/issues/11)) ([5a5cd4c](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/commit/5a5cd4c47b55bb5304fc2d5d1ff3ed7e092c2a66))
+
+
+### BREAKING CHANGES
+
+* updated provider name to compunet-cloud/azurefilesacl
+* updated provider name to compunet-cloud/azurefilesacl
+
+# [1.0.0](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/compare/v0.4.0...v1.0.0) (2026-05-19)
+
+
+* feat!: update provider name and version to latest major ([#10](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/issues/10)) ([cd57860](https://github.com/compunet-cloud/terraform-provider-azurefilesacl/commit/cd5786087a8cd87a278736a0529c35fc8d521945))
 
 
 ### BREAKING CHANGES

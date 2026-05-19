@@ -1,0 +1,72 @@
+{
+  "name": "terraform-provider-avd-azurefilesacl",
+  "version": "0.0.0-development",
+  "private": true,
+  "scripts": {
+    "release": "semantic-release",
+    "test": "echo \"No tests defined\" && exit 0",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.2",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "husky": "^9.1.7",
+    "semantic-release": "^25.0.3"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "master",
+      {
+        "name": "next",
+        "prerelease": true
+      },
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      },
+      {
+        "name": "release/*",
+        "channel": "release-${name.replace(/^release\\//,'')}"
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md",
+          "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "successComment": "🎉 This issue/PR is included in version ${nextRelease.version}.",
+          "failComment": "⚠️ The release from branch `${branch.name}` failed.",
+          "releasedLabels": [
+            "released"
+          ]
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  }
+}

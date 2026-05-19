@@ -3,7 +3,7 @@ terraform {
 
   required_providers {
     azurefilesacl = {
-      source  = "compunet-cloud/avd-azurefilesacl"
+      source  = "compunet-cloud/azurefilesacl"
       version = "0.0.0"
     }
   }

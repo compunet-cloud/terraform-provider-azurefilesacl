@@ -1,5 +1,5 @@
 {
-  "name": "terraform-provider-avd-azurefilesacl",
+  "name": "terraform-provider-azurefilesacl",
   "version": "0.0.0-development",
   "private": true,
   "scripts": {

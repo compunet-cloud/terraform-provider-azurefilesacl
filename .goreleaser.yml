@@ -1,6 +1,6 @@
 version: 2
 
-project_name: terraform-provider-avd-azurefilesacl
+project_name: terraform-provider-azurefilesacl
 
 before:
   hooks:

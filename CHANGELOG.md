@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [0.4.0](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/compare/v0.3.1...v0.4.0) (2026-05-19)
+
+
+### Features
+
+* fix release name ([#8](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/issues/8)) ([76202af](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/commit/76202af15a223e52eda73346018c93d25fdbe3a6))
+
 ## [0.3.1](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/compare/v0.3.0...v0.3.1) (2026-05-19)
 
 

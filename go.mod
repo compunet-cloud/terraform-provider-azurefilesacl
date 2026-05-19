@@ -1,4 +1,4 @@
-module github.com/compunet-cloud/terraform-provider-avd-azurefilesacl
+module github.com/compunet-cloud/terraform-provider-azurefilesacl
 
 go 1.25.8
 

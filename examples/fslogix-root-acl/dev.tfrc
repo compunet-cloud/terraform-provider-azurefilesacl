@@ -1,6 +1,6 @@
 provider_installation {
   dev_overrides {
-    "day0-sandbox/azurefilesacl" = "/tmp/azurefilesacl-dev"
+    "compunet-cloud/azurefilesacl" = "/tmp/azurefilesacl-dev"
   }
 
   direct {}

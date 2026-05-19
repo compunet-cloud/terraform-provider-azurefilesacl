@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [0.3.0](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/compare/v0.2.0...v0.3.0) (2026-05-19)
+
+
+### Features
+
+* add Actions support to clean up resources ([#6](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/issues/6)) ([ff24052](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/commit/ff24052b8e750cdb1b980d40392c87d90c30d85b))
+
 # [0.2.0](https://github.com/compunet-cloud/terraform-provider-avd-azurefilesacl/compare/v0.1.0...v0.2.0) (2026-05-19)
 
 

@@ -15,7 +15,7 @@ var (
 
 func main() {
 	err := providerserver.Serve(context.Background(), provider.New(version), providerserver.ServeOpts{
-		Address: "registry.terraform.io/compunet/avd/azurefilesacl",
+		Address: "registry.terraform.io/compunet-cloud/avd-azurefilesacl",
 	})
 	if err != nil {
 		log.Fatal(err)
